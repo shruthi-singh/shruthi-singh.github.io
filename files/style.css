@@ -1,0 +1,96 @@
+
+
+      html,
+      body {
+        height: 100%;
+        background:url('Anniversary show 2011.jpg'); background-attachment:fixed; background-position:  center; background-repeat:no-repeat; background-color: #1a0100  ;
+      }
+
+      .container{padding-bottom: 30px;}
+
+      @font-face {
+        font-family: "Black Rose"; src: url('BLACKR.TTF') format("truetype");
+        }
+
+      .page-header h1{font-family: "Black Rose"; font-size: 72px; font-weight: normal;  }
+      h4{color: #8e2c00}
+
+
+      ul, ol {
+        margin: 0 0 10px 20px;
+      }
+
+      #wrap{background: rgba(26, 1, 0, 0.95); padding-top: 25px;}
+      .container {
+
+         width: auto;
+         max-width: 980px;
+         color: #b58886;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      .page-header {
+       margin-bottom: 10px;
+       border-bottom: none;
+      }
+      .lead{margin-top: 30px; margin-left: 30px}
+      .contact-me{margin-top: 15px; margin-left: 15px;}
+      .photo{border: 1px solid #7e4932; height: 110px; overflow: hidden;}
+
+
+      .photos, .masked-bg {
+background: rgba(0, 0, 0, 0.3);
+border: 1px solid rgba(26, 1, 0, 0.2);
+-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 20px 0px;
+}
+
+.masked-bg {padding: 20px 20px;}
+#adjust-margin{margin-left: -5px}
+#adjust-margin .span2{margin-left: 22px;}
+#adjust-margin .span5{margin-left: 20px;}
+#adjust-margin .span5 { width: 460px; }
+
+.videos {
+background: rgba(0, 0, 0, 0.2);
+border: 1px solid rgba(26, 1, 0, 0.1);
+-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 20px 0px;
+}
+
+
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+
+        #adjust-margin .span2 {
+          margin-left: 0px;
+        }
+
+       #adjust-margin .span5{width: 100%; margin-left: 0px}
+
+       body.masked {
+           padding-right: 0px;
+           padding-left: 0px;
+         }
+       #wrap{ padding-right: 20px;
+           padding-left: 20px;
+         }
+       .photo{margin-bottom: 15px;
+      }
