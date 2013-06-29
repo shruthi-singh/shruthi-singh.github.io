@@ -12,7 +12,7 @@
         font-family: "Black Rose"; src: url('BLACKR.TTF') format("truetype");
         }
 
-      .page-header h1{font-family: "Black Rose"; font-size: 72px; font-weight: normal;  }
+      .page-header h1{font-family: "Black Rose"; font-size: 64px; font-weight: normal;  }
       h4{color: #8e2c00}
 
 
@@ -35,7 +35,7 @@
        margin-bottom: 10px;
        border-bottom: none;
       }
-      .lead{margin-top: 30px; margin-left: 30px}
+      .lead{margin-top: 20px;  }
       .contact-me{margin-top: 15px; margin-left: 15px;}
       .photo{border: 1px solid #7e4932; height: 110px; overflow: hidden;}
 
