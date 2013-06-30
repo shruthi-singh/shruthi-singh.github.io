@@ -92,5 +92,12 @@ padding: 20px 0px;
        #wrap{ padding-right: 20px;
            padding-left: 20px;
          }
-       .photo{margin-bottom: 15px;
+       .photo{margin-bottom: 15px;}
+       h1{ line-height: 70px;}
+       .contact-me {
+             margin-top: 0px;
+            margin-left: 0px;
+        }
+       .page-header {
+            margin-bottom: 0px; }
       }
